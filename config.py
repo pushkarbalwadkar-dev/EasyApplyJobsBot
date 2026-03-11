@@ -4,8 +4,8 @@
 browser = ["Chrome"]
 # Enter your Linkedin password and username below. Do not commit this file after entering these credentials.
 # Linkedin credentials
-email = "YourLinkedin@UserEmail.com"
-password = "YourLinkedinPassword"
+email = "pushkar.balwadkar@gmail.com"
+password = "Iavenue@5"
 
 #PRO FEATURE - Optional! run browser in headless mode, no browser screen will be shown it will work in background.
 headless = False
@@ -16,15 +16,15 @@ firefoxProfileRootDir = r""
 chromeProfilePath = r""
 
 # These settings are for running Linkedin job apply bot.
-# location you want to search the jobs - ex : ["Poland", "Singapore", "New York City Metropolitan Area", "Monroe County"]
-# continent locations:["Europe", "Asia", "Australia", "NorthAmerica", "SouthAmerica", "Africa", "Australia"]
-location = ["NorthAmerica"]
+# location you want to search the jobs - ex : ["Paris", "Netherlands", "Ile-De-France", "Singapore", "New York City Metropolitan Area", "Monroe County"]
+# continent locations:["Europe", "Asia", "Australia", "NorthAmerica", "SouthAmerica", "Africa", "Worldwide"]
+location = ["Remote", "Worldwide", "Europe", "United States", "UAE", "Asia Pacific", "Canada", "Asia", "Australia", "NorthAmerica", "SouthAmerica", "Africa", "Worldwide"]
 # keywords related with your job search
-keywords = ["frontend", "react", "typescript","javascript", "vue", "python", "programming", "blockchain"]
+keywords = ["Salesforce Marketing Cloud", "SFMC Developer", "Salesforce Marketing Cloud Consultant","SFMC Specialist", "AMPScript", "SFMC"]
 #job experience Level - ex:  ["Internship", "Entry level" , "Associate" , "Mid-Senior level" , "Director" , "Executive"]
-experienceLevels = [ "Entry level" ]
+experienceLevels = [ "" ]
 #job posted date - ex: ["Any Time", "Past Month" , "Past Week" , "Past 24 hours"] - select only one
-datePosted = ["Past Week"]
+datePosted = ["Any Time"]
 #job type - ex:  ["Full-time", "Part-time" , "Contract" , "Temporary", "Volunteer", "Intership", "Other"]
 jobType = ["Full-time", "Part-time" , "Contract"]
 #remote  - ex: ["On-site" , "Remote" , "Hybrid"]
@@ -87,9 +87,9 @@ AngelCoBotPassword = ""
 AngelCoEmail = ""
 AngelCoPassword = ""
 # jobTitle ex: ["Frontend Engineer", "Marketing"]
-angelCoJobTitle = ["Frontend Engineer"]
+angelCoJobTitle = [""]
 # location ex: ["Poland"]
-angelCoLocation = ["Poland"]
+angelCoLocation = ["Paris"]
 
 # These settings are for running GlobalLogic job apply bot you need to purchase GlobalLogic bot obtain bot password, paste below and then run the bot.
 GlobalLogicBotPassword = ""
@@ -130,4 +130,4 @@ displayWarnings = False
 dryRun = False
 # Optional cap: stop after this many successful applications in one run. 0 = no limit.
 # Example: 50 or 100 to avoid applying too many jobs in a single session (LinkedIn recommends under 200/day).
-maxApplicationsPerRun = 0
+maxApplicationsPerRun = 30
